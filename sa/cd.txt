@@ -1,0 +1,9 @@
+##c 
+gcc -o on17 on17.c -lwiringPi
+
+##asm o s
+##as -o on17.o on17.asm
+##gcc -o on17asm on17.o -lwiringPi
+
+as -o on17.o on17.s
+gcc -o on17s on17.o -lwiringPi
